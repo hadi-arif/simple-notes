@@ -50,11 +50,3 @@ Frontend:
 ```sh
 npm test
 ```
-
-
-## 📢 Kontribusi
-Pull request dipersilakan! Silakan buka issue untuk diskusi fitur atau bug.
-
-## 📜 Lisensi
-MIT License
-
