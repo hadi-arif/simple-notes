@@ -36,11 +36,6 @@ npm install
 npm start
 ```
 
-## 🔑 Autentikasi
-- Register dan Login dengan JWT
-- Protected Routes di backend & frontend
-- Role-based access control
-
 ## ✅ Testing
 Backend:
 ```sh
