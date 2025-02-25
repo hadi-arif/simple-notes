@@ -17,7 +17,7 @@ Simple Notes adalah aplikasi pencatatan harian berbasis web
 ##  Cara Menjalankan
 ### 1. Clone Repository
 ```sh
-git clone https://github.com/hadi-arif/notes-app.git
+git clone https://github.com/hadi-arif/simple-notes
 cd notes-app
 ```
 
