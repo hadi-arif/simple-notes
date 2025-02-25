@@ -51,20 +51,6 @@ Frontend:
 npm test
 ```
 
-## 📝 Dokumentasi API
-Endpoint utama tersedia di `backend/docs/api.md`.
-
-## 🎨 Tema dan Desain
-- Warna utama: **Merah, Putih, Kuning** (tema sekolah)
-- UI modern dengan Chakra UI
-
-## 📌 Fitur Utama
-- CRUD Notes (Create, Read, Update, Delete)
-- User Authentication (JWT)
-- Responsive UI
-- Protected Routes
-- API Error Handling
-- Unit Testing (Backend & Frontend 90%+ coverage)
 
 ## 📢 Kontribusi
 Pull request dipersilakan! Silakan buka issue untuk diskusi fitur atau bug.
