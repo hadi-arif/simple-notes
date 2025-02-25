@@ -1,6 +1,6 @@
 # Simple Notes
 
-Notes App adalah aplikasi pencatatan harian berbasis web 
+Simple Notes adalah aplikasi pencatatan harian berbasis web 
 
 ### Frontend:
 - React
