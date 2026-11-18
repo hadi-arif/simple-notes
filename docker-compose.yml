@@ -1,0 +1,16 @@
+# Cara tercepat menyalakan PostgreSQL tanpa menginstalnya:  docker compose up -d
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: notes_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - notes_pgdata:/var/lib/postgresql/data
+
+volumes:
+  notes_pgdata:

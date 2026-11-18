@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #ffe08a;
+  color: #3b2f0b;
+}
+
+:focus-visible {
+  outline: 2px solid #ffe08a;
+  outline-offset: 3px;
+}
+
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(100deg, rgba(233, 240, 227, 0.06) 30%, rgba(233, 240, 227, 0.16) 50%, rgba(233, 240, 227, 0.06) 70%);
+  background-size: 200% 100%;
+  animation: shimmer 2.2s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton { animation: none; }
+}

@@ -1,0 +1,12 @@
+# Konfigurasi Netlify. File ini di akar repositori supaya terbaca walau
+# "Base directory" di dashboard Netlify belum diisi.
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist" # relatif terhadap base, jadi hasilnya frontend/dist
+
+# Semua alamat dialihkan ke index.html supaya React Router tetap jalan saat halaman di-refresh.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
