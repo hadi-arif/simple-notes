@@ -13,7 +13,6 @@ Aplikasi catatan harian berbasis web. Catatan tampil sebagai kertas tempel di pa
 - Pintasan keyboard: `N` catatan baru, `/` cari, `Ctrl/Cmd + Enter` simpan, `Esc` tutup editor
 - Editor menahan penutupan kalau ada tulisan yang belum disimpan
 
-## Teknologi
 
 | Bagian | Yang dipakai |
 | --- | --- |
